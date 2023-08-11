@@ -58,6 +58,7 @@ body{
     position: sticky;
     top: 0;
     background: black;
+    z-index: 2;
 }
 .container__header{
     display: flex;
@@ -96,26 +97,50 @@ body{
     height: auto;
 }
 
+/* price  */
+.list__price{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item__price{
+    width: 25%;
+    color: aliceblue;
+    padding: 40px;
+    box-sizing: border-box;
+    background: #93c120;
+    border: 5px solid black;
+}
+.img__price{
+    width: 100%;
+    z-index: 1;
+}
+
 
 /* плавный контент */
-.fade-in-content {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out; /* Плавный переход для непрозрачности */
-}
-.text__test{
-    color: aliceblue;
-}
-.test{
-    color: aliceblue;
-}
-p{
-    color: aliceblue;
-}
 
-.testD{
-    background: red;
-    height: 100px;
-    width: 200px;
-    margin: 0 auto;
-    margin-bottom: 50px;
+.fade-in {
+    opacity: 0;
+    transform: translateY(200px);
+    transition: opacity .5s ease-in-out, transform .5s ease-in-out;
 }
+/* .fade-in_1{
+    opacity: 0;
+    transform: translateY(200px);
+    transition: opacity .3s ease-in-out, transform .3s ease-in-out;
+}
+.fade-in_2{
+    opacity: 0;
+    transform: translateY(200px);
+    transition: opacity .6s ease-in-out, transform .6s ease-in-out;
+}
+.fade-in_3{
+    opacity: 0;
+    transform: translateY(200px);
+    transition: opacity .9s ease-in-out, transform .9s ease-in-out;
+}
+.fade-in_4{
+    
+    transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out;
+} */
+/* паралакс  */
+
