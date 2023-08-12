@@ -41,52 +41,119 @@
     </header>
     <main class="main">
 <section class="video__title">
-    <video id="myVideo" autoplay muted loop>
+    <div class="video__wrap">
+    <video id="myVideo" controls autoplay muted loop>
 		<source src="video/myVideo1.mp4" type="video/mp4">
 	</video>
+</div>
 </section>
-<div class="fade-in-section">
+
+<section class="about">
+    <div class="container container__about">
+            <h2 class="title__about">
+                Concert Media Pro
+            </h2>
+            <p class="text__about">
+                Съёмочная компания с большими возможностями
+                С 2010 года продакшн-студия Concert Media Pro успешно <span class="green"> помогает реализовывать любые задумки</span>, связанные с кино-, теле- и видеопроизводством.<br>
+                Наша команда имеет большой опыт в осуществлении многокамерных съемок, аэросъемок,<span class="green"> проведении интернет трансляций</span> любого уровня сложности. Мы выполняем полный цикл видеопродакшена в кино- и телепроизводстве. В работе<span class="green"> мы используем только профессиональную технику</span> и идем в ногу со временем, всегда находясь в курсе последних мировых тенденций
+            </p>
+            <div class="learn__more_about">
+                <a href="#" class="link__about">
+                    <h3 class="text__link_about">Узнать больше  </h3>
+                    <img src="img/aboutarrow.png" alt="">
+                </a>
+            </div>
+    </div>
+</section>
+<section class="services">
+    <div class="wrap__services">
+        <ul class="list__sevrvice">
+            <li class="item__service white__back fade-in " data-speed="0.3"> 
+               <div class="img__container__ser  ">
+                 <img src="img/CameraC.svg" class="img__service" alt="">
+                </div>
+                <div class="content__service">
+                    <h3 class="title__ser">Видеосъемка</h3>
+                <p class="text__ser">от 80 000руб</p>
+                </div>
+            </li>
+            <li class="item__service green__back fade-in " data-speed="0.6" >
+               <div class="img__container__ser ">
+                 <img src="img/tvC.svg" class="img__service" alt="">
+                </div>
+                <div class="content__service">
+                    <h3 class="title__ser">Онлайн-трансляция</h3>
+                <p class="text__ser">от 80 000руб</p>
+                </div>
+            </li>
+            <li class="item__service white__back fade-in " data-speed="0.9"  >
+               <div class="img__container__ser ">
+                 <img src="img/GuitarC.svg" class="img__service" alt="">
+                </div>
+                <div class="content__service">
+                    <h3 class="title__ser">Съемка клипов</h3>
+                <p class="text__ser">от 80 000руб</p>
+                </div>
+            </li>
+            <li class="item__service green__back fade-in " data-speed="1.2" >
+               <div class="img__container__ser ">
+                 <img src="img/ballc.svg" class="img__service" alt="">
+                </div>
+                <div class="content__service">
+                    <h3 class="title__ser">Трансляция спортивных мероприятий</h3>
+                <p class="text__ser">от 80 000руб</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- <div class="fade-in-section">
     <div class="price__container">
         <ul class="list__price">
-            <li class="item__price fade-in-section">
-                <div class="wrap__price fade-in fade-in_1" data-speed="0.3">
-                <img class="img__price" src="img/camera.jpg" alt="">
+            <li class="item__price camera__item fade-in-section">
+                <div class="wrap__price fade-in " data-speed="0.3">
+                <img class="img__price" src="img/CameraC.svg" alt="">
+                <div class="bottom__rice">
                 <h3 class="title__price">Видеосъемка</h3>
                 <p class="text__price">от 80 000руб</p>
+                </div>
+            </div>
+            </li>
+            <li class="item__price tv__item green__back fade-in-section">
+                <div class="wrap__price fade-in " data-speed="0.6">
+                <img class="img__price" src="img/tvC.svg" alt="">
+                <div class="bottom__rice">
+                <h3 class="title__price">Видеосъемка</h3>
+                <p class="text__price">от 80 000руб</p>
+                </div>
             </div>
             </li>
             <li class="item__price fade-in-section">
-                <div class="wrap__price fade-in fade-in_2" data-speed="0.6">
-                <img class="img__price" src="img/tv.jpg" alt="">
-                <h3 class="title__price">Видеосъемка</h3>
-                <p class="text__price">от 80 000руб</p>
-            </div>
+                <div class="wrap__price fade-in "  data-speed="0.9">
+                 <img class="img__price" src="img/GuitarC.svg" alt="">
+                    <div class="bottom__rice">
+                        <h3 class="title__price">Видеосъемка</h3>
+                        <p class="text__price">от 80 000руб</p>
+                    </div>
+                </div>
             </li>
-            <li class="item__price fade-in-section">
-                <div class="wrap__price fade-in fade-in_3"  data-speed="0.9">
-                <img class="img__price" src="img/guitar.jpg" alt="">
+            <li class="item__price ball__item green__back fade-in-section">
+                <div class="wrap__price fade-in "  data-speed="1.2">
+                <img class="img__price" src="img/ballc.svg" alt="">
+                <div class="bottom__rice">
                 <h3 class="title__price">Видеосъемка</h3>
                 <p class="text__price">от 80 000руб</p>
-            </div>
-            </li>
-            <li class="item__price fade-in-section">
-                <div class="wrap__price fade-in fade-in_4"  data-speed="1.2">
-                <img class="img__price" src="img/transa.jpg" alt="">
-                <h3 class="title__price">Видеосъемка</h3>
-                <p class="text__price">от 80 000руб</p>
+                </div>
             </div>
             </li>
             
         </ul>
     </div>
-</div>
+</div> -->
 
-<div class="wrapper parallax">
-    <div class="parallax-layer parallax-image">
-      <img src="https://i.pinimg.com/originals/9e/20/fc/9e20fc9ba2e1456ff29caa6780521cb7.jpg" alt="Сад изящных слов">
-    </div>
-    <span class="parallax-layer parallax-text">Сад изящных слов</span>
-  </div>
+
     </main>
     <footer class="footer">
         
@@ -96,5 +163,6 @@
         AOS.init();
       </script>
     <script src="js/slowContent.js"></script>
+    <script src="js/videoP;ay.js"></script>
 </body>
 </html>

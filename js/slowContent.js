@@ -1,6 +1,6 @@
 function resetStyles(elem) {
     elem.style.opacity = '0';
-    elem.style.transform = 'translateY(200px)';
+    elem.style.transform = 'translateX(200px)';
 }
 
 function fadeInOnScroll() {
@@ -14,7 +14,7 @@ function fadeInOnScroll() {
             
         if (distanceFromTop - windowHeight + 200 <= 0) {
             fadeInSection.style.opacity = '1';
-            fadeInSection.style.transform = 'translateY(0)';
+            fadeInSection.style.transform = 'translateX(0)';
             fadeInSection.style.transition = `opacity ${speedShow}s ease-in-out, transform ${speedShow}s ease-in-out`;
         }
          else { 
