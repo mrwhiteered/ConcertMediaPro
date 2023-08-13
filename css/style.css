@@ -361,6 +361,11 @@ text-decoration: none ;
     .container{
         max-width: 700px;
     }
+    .header{
+        position: fixed;
+        width: 100%;
+     
+    }
     .burger_menu{
         display: block;
         position: absolute;
@@ -549,6 +554,30 @@ text-decoration: none ;
         .inst__soc{
             margin: 0px 10px 0 20px;
         }
+        .logo__img{
+            width: 100px;
+        }
+        .burger{
+            width: 50px;
+            height: 40px;
+        }
+        .burger__line{
+            width: 50px;
+            height: 8px;
+            margin-bottom: 8px;
+        }
+        .active .burger__line_1{
+            transform: rotate(45deg) translate(12px, 14px);
+            transition: transform 1s, opacity 1s ;
+            }
+            .active .burger__line_2{
+            opacity: 0;
+            transition: transform 1s, opacity 1s ;
+            }
+            .active .burger__line_3{
+            transform: rotate(-45deg)  translate(10px, -10px);
+            transition: transform 1s, opacity 1s ;
+            }
     }
 
     
