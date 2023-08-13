@@ -578,6 +578,9 @@ text-decoration: none ;
             transform: rotate(-45deg)  translate(10px, -10px);
             transition: transform 1s, opacity 1s ;
             }
+            .video__title{
+                margin-top: 70px;
+            }
     }
 
     
