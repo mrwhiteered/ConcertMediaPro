@@ -581,6 +581,9 @@ text-decoration: none ;
             .video__title{
                 margin-top: 70px;
             }
+            .adaptiv{
+                order: 0;
+            }
     }
 
     
