@@ -69,8 +69,8 @@ body{
     position: sticky;
 }
 .logo__img{
-    width: 100px;
-    height: 70px;
+    width: 170px;
+   
 }
 
 .list__nav{
@@ -82,6 +82,7 @@ body{
     text-transform: uppercase;
     color: aliceblue;
     transition: color 0.3s;
+    font-family: Open Sans;
 }
 .item__nav{
     margin-right: 32px;
@@ -114,6 +115,10 @@ body{
     transition: opacity .5s ease-in-out, transform .5s ease-in-out;
 }
 /* about section */
+.about{
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
 .container__about{
     color: white;
 }
@@ -126,6 +131,7 @@ font-size: 40px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+padding-bottom: 45px;
 }
 .text__about{
     color: aliceblue;
@@ -135,6 +141,10 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+padding-bottom: 45px;
+max-width: 1200px;
+display: block;
+margin: 0 auto;
 }
 .green{
     color: #93C120;
@@ -150,6 +160,10 @@ line-height: normal;
     align-items: center;
     justify-content: center;
 }
+.img__svg_about{
+    margin-top: 10px;
+    margin-left: 20px;
+}
 .text__link_about{
     color: #93C120;
 font-family: Commissioner;
@@ -158,7 +172,19 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 6.8px;
+transition: color 0.5s;
+}
+.link__about:hover .text__link_about{
+    color: #FFF;
+}
 
+
+.img__svg_about path {
+    transition: fill 0.5s ease; /* Добавляем плавный переход */
+}
+
+.link__about:hover .img__svg_about path {
+    fill: white; /* Изменяем цвет на белый при наведении */
 }
 /* service */
 .list__sevrvice{
@@ -221,7 +247,7 @@ letter-spacing: 6.8px;
   .title__ser,
   .text__ser {
     text-align: center;
-    margin: 0; /* Убираем стандартные отступы */
+    margin: 0; 
     color: #000;
 text-align: center;
 font-family: Open Sans;
@@ -235,3 +261,63 @@ line-height: normal;
     margin-top: 50px;
   }
   
+  /* карта */
+  .map{
+    padding: 50px;
+  }
+  .title__map{
+    color: #FFF;
+    font-family: Open Sans;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .map_yandex{
+    margin: 0 auto;
+    display: block;
+  }
+
+  /* footer */
+  .footer{
+    padding: 50px;
+  }
+  .footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .footer__title{
+    color: #93C120;
+text-align: left;
+padding-bottom: 20px;
+font-family: Open Sans;
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .item__contact{
+    margin-bottom: 20px;
+  }
+  .contact__link{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration: none ;
+  }
+  .list__soc{
+    display: flex;
+    align-items: center;
+  }
+  .item__soc{
+    margin-right: 30px;
+  }
+  .social:hover .svg__soc path{
+    fill: white;
+  }
+  .svg__soc path {
+    transition: fill 0.5s ease; /* Добавляем плавный переход */
+}
