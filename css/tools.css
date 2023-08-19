@@ -1,0 +1,114 @@
+.tool__title{
+   margin-top: 700px;
+}
+
+.tool__title_text{
+    color: aliceblue;
+    font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: block;
+margin: 0 auto;
+max-width: 800px;
+padding-bottom: 70px;
+}
+.tool__title_text .green{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.background__image_img{
+    position: fixed;
+    top: 0;
+   
+    height: auto;
+    left: 100px;
+    z-index: 1;
+}
+@media screen and (max-width:1200px){
+    .background__image_img{
+     display: none;  
+    }
+    .tool__title{
+        margin-top: 150px;
+    }
+    .tool__title_text{
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:460px) {
+    .tool__title_text{
+        font-size: 22px;
+        padding-bottom: 20px;
+        
+    }
+    .tool__title{
+        margin-top: 70px;
+    }
+    .tool__title_text .green{
+        font-size: 22px;
+    }
+}
+.tool__title{
+    z-index: 2;
+    position: relative;
+}
+.map{
+    position: relative;
+    z-index: 2;
+    background: black;
+}
+.footer{
+    position: relative;
+    z-index: 2;
+    background: black;
+}
+.tools__gallery{
+    position: relative;
+    background: white;
+    z-index: 2;
+}
+
+
+/* ------------ */
+.container__tools_gallery{
+    max-width: 800px;
+}
+.tool__gallery_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.tool__galery_item{
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.tool__galery_item svg{
+    display: block;
+    margin: 0 auto;
+}
+.tool__galery_subTitle{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Tektur', cursive;
+    font-size: 28px;
+    
+    
+}
+.tool__gallery_text{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    color:#B3B1B2 ;
+}
