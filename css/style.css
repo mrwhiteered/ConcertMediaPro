@@ -465,6 +465,9 @@ text-decoration: none ;
    .footer{
     padding-top: 30px;
    }
+   .form__yandex{
+    max-width:630px ;
+   }
     }
     @media screen and (max-width:460px) {
         .container{
@@ -565,6 +568,7 @@ text-decoration: none ;
             width: 50px;
             height: 8px;
             margin-bottom: 8px;
+            border-radius: 10px 0px 10px 0px ;
         }
         .active .burger__line_1{
             transform: rotate(45deg) translate(12px, 14px);
@@ -584,6 +588,9 @@ text-decoration: none ;
             .adaptiv{
                 order: 0;
             }
+            .form__yandex{
+                max-width:360px ;
+               }
     }
 
     
