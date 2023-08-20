@@ -29,31 +29,7 @@ padding-bottom: 70px;
     left: 100px;
     z-index: 1;
 }
-@media screen and (max-width:1200px){
-    .background__image_img{
-     display: none;  
-    }
-    .tool__title{
-        margin-top: 150px;
-    }
-    .tool__title_text{
-        padding-bottom: 50px;
-        text-align: center;
-    }
-}
-@media screen and (max-width:460px) {
-    .tool__title_text{
-        font-size: 22px;
-        padding-bottom: 20px;
-        
-    }
-    .tool__title{
-        margin-top: 70px;
-    }
-    .tool__title_text .green{
-        font-size: 22px;
-    }
-}
+
 .tool__title{
     z-index: 2;
     position: relative;
@@ -111,4 +87,68 @@ padding-bottom: 70px;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 22px;
     color:#B3B1B2 ;
+}
+@media screen and (max-width:1200px){
+    .background__image_img{
+     display: none;  
+    }
+    .tool__title{
+        margin-top: 150px;
+    }
+    .tool__title_text{
+        padding-bottom: 50px;
+        text-align: center;
+    }
+}
+@media  screen and (max-width:864px) {
+    .tool__title_text{
+        max-width: 500px;
+    }
+    .background__image_img{
+        display: block;
+        width: 600px;
+        height: 400px;  
+        margin-top: 100px;
+       }
+       .tool__title{
+        margin-top: 500px;
+    }
+    .tool__galery_subTitle{
+        font-size: 24px;
+    }
+    .container{
+        max-width: 700px;
+    }
+}
+@media screen and (max-width:460px) {
+    .background__image_img{
+        display: block;
+        width: 300px;
+        height: 200px;  
+        margin-top: 120px;
+        left: 50px;
+       }
+       .container{
+        max-width: 375px;
+       }
+    .tool__title_text{
+        font-size: 18px;
+        padding-bottom: 20px;
+        max-width: 300px;
+    }
+    .tool__title{
+        margin-top: 350px;
+    }
+    .tool__title_text .green{
+        font-size: 22px;
+    }
+    .tool__galery_item{
+        padding: 50px 0;
+    }
+    .tool__galery_subTitle{
+        font-size: 18px;
+    }
+    .tool__gallery_text{
+        font-size: 16px;
+    }
 }
