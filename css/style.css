@@ -512,7 +512,8 @@ text-decoration: none ;
             height: 300px;
         }
         .title__map{
-            margin: 15px 0;
+            margin: 0;
+            padding:15px;
         }
         .map{
             padding:0 0 15px 0px;
