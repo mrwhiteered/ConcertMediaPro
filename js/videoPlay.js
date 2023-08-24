@@ -35,7 +35,7 @@ for (let i = 0; i < playListLength; i++) {
     videoElement.muted = true;
 
     let sourceElement = document.createElement("source");
-    let sourcePath = "../video/works/" + playList[i];
+    let sourcePath = "./video/works/" + playList[i];
     sourceElement.src = sourcePath;
     sourceElement.setAttribute("type", "video/mp4");
 
