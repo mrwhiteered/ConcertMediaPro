@@ -1,7 +1,7 @@
-body{
-    transition: all 1s;
-}
 
+.info{
+    margin-top: 50px;
+}
 .info__about{
     padding: 50px 10px;
 }
@@ -20,8 +20,12 @@ padding-bottom: 50px;
     max-width: 800px;
     margin: 0 auto;
     display: block;
+    font-size: 24px;
     font-family: Open Sans;
     line-height: normal;
+}
+.text__info .green{
+    font-size: 24px;
 }
 
 
@@ -43,9 +47,13 @@ padding-bottom: 50px;
     max-width: 800px;
     margin: 0 auto;
     display: block;
+    font-size: 22px;
     font-family: Open Sans;
     line-height: normal;
     padding-bottom: 50px;
+}
+.text__info2 .green{
+    font-size: 22px;
 }
 /* ------------------------------------------------------------- */
 .fade-up {

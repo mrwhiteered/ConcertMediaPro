@@ -47,13 +47,38 @@ table {
 }
 
 body{
-    background: black;
-    
+    background: black;    
 }
-
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
 .container{
     margin: 0 auto;
     max-width: 1440px;
+}
+/* Анимация исчезновения */
+body.slow-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Анимация появления */
+@keyframes slow-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body.slow-in {
+    animation: slow-in 0.5s ease-in-out forwards;
 }
 
 /* header */
