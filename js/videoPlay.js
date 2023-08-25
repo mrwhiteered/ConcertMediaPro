@@ -64,8 +64,8 @@ for (let i = 0; i < playListLength; i++) {
 
 let itemsVideo =  document.querySelectorAll('.works__video_item');
 itemsVideo.forEach(element => {
-    element.addEventListener('click', selectVideo);
-    element.addEventListener('touchend',selectVideo);
+    element.addEventListener('pointerdown', selectVideo);
+    
 });
 
 function clearStyle(){
@@ -86,7 +86,7 @@ function selectVideo() {
     let selectedIndex = Array.from(itemsVideo).indexOf(this);
 
     // Обновляем видео в элементе mainVideo
-    mainVideo.src = `../video/works/${playList[selectedIndex]}`;
+    mainVideo.src = `./video/works/${playList[selectedIndex]}`;
 }
 
 // function nextVideo() {
