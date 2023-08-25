@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', function() {
+    // Ваш код для работы с DOM и другие операции после загрузки DOM
+   
+
 let listWorks = document.getElementById('list__works');
 let mainVideo = document.getElementById('videoPlayer');
 
@@ -19,7 +23,7 @@ function preloadNextVideo(videoIndex) {
 
 let number =0;
 let screenSmartfone = window.innerWidth;
-console.log(screenSmartfone);
+
 for (let i = 0; i < playListLength; i++) {
 
 
@@ -88,7 +92,7 @@ function selectVideo() {
     // Обновляем видео в элементе mainVideo
     mainVideo.src = `./video/works/${playList[selectedIndex]}`;
 }
-
+});
 // function nextVideo() {
 //     if (number==playList.length - 1){
 //         number=0;
