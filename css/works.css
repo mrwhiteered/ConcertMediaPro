@@ -88,6 +88,10 @@ line-height: normal;
         background: black;
 
     }
+    .activeVideo{
+        padding: 2px;
+        background: #93C120;
+    }
     
 }
 @media screen and (max-width:450px) {
@@ -97,6 +101,10 @@ line-height: normal;
         padding: 2px;
         background: black;
 
+    }
+    .activeVideo{
+        padding: 2px;
+        background: #93C120;
     }
     .works__contant_text{
         margin-top: 95px;

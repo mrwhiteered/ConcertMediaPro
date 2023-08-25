@@ -65,6 +65,7 @@ for (let i = 0; i < playListLength; i++) {
 let itemsVideo =  document.querySelectorAll('.works__video_item');
 itemsVideo.forEach(element => {
     element.addEventListener('click', selectVideo);
+    element.addEventListener('touchend',selectVideo);
 });
 
 function clearStyle(){
