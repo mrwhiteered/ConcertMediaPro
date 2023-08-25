@@ -626,6 +626,12 @@ text-decoration: none ;
                .video__wrap{
                 margin-top: 0;
                }
+               .title__map{
+                font-size: 24px;
+               }
+               .footer__title{
+                font-size: 24px;
+               }
     }
 
     

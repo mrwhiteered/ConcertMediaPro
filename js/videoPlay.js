@@ -18,15 +18,21 @@ function preloadNextVideo(videoIndex) {
 }
 
 let number =0;
-
+let screenSmartfone = window.innerWidth;
+console.log(screenSmartfone);
 for (let i = 0; i < playListLength; i++) {
 
 
 
     let liElem = document.createElement('li');
     liElem.setAttribute('id', 'video_' + i);
-    liElem.setAttribute('class', 'works__video_item');
-
+    if (screenSmartfone<=460){
+        liElem.setAttribute('class', 'works__video_item fade-in');
+    }else {
+        liElem.setAttribute('class', 'works__video_item');
+    }
+   
+    
     let videoElement = document.createElement('video');
     videoElement.setAttribute("id", 'video' + i);
     videoElement.setAttribute("controls", "");

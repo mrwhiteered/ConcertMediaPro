@@ -99,12 +99,16 @@ line-height: normal;
 
     }
     .works__contant_text{
-        margin-top: 65px;
+        margin-top: 95px;
         text-align: center;
         font-size: 18px;
+
     }
     .works__contant_text .green{
         font-size: 18px;
+    }
+    .works__video__wrap{
+        margin-top: 20px;
     }
     
 }
