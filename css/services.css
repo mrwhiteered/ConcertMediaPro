@@ -1,0 +1,54 @@
+.services__content_text{
+    color: aliceblue;
+   
+    font-size: 28px;
+    font-family: Montserrat;
+
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+max-width: 1000px;
+margin: 0 auto;
+margin-top: 130px;
+display: block;
+padding-bottom: 50px;
+}
+.services__content_text .green{
+    font-size: 28px;
+}
+.main_info{
+    font-weight: 700;
+}
+.title_ser{
+    font-family: 'Finlandica';
+}
+.img__service{
+    transition: transform 0.4s;
+}
+.img__service:hover{
+transform: scale(1.2);
+transition: transform 0.4s;
+}
+
+@media screen and (max-width:864px) {
+    .services__content_text{
+        max-width: 600px;
+        text-align: center;
+        font-size: 22px;
+        margin-top: 110px;
+    }
+    .services__content_text .green{
+        font-size: 22px;
+    }
+}
+@media screen and (max-width:460px) {
+    .services__content_text{
+        max-width: 400px;
+        text-align: center;
+        font-size: 18px;
+        margin-top: 85px;
+    }
+    .services__content_text .green{
+        font-size: 18px;
+    }
+}

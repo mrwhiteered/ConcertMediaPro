@@ -103,6 +103,17 @@ padding-bottom: 50px;
     display: block;
     
 }
+.info__about{
+    background: black;
+}
+.title__info2{
+   
+ 
+}
+.info__about2{
+    margin-top: 800px;
+    background-color: black;
+}
 @media screen and (max-width:864px) {
    .item__clients{
     box-sizing: border-box;
