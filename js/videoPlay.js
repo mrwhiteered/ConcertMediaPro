@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', function() {
 let listWorks = document.getElementById('list__works');
 let mainVideo = document.getElementById('videoPlayer');
 
-let playList = ['intro.mov', 'myVideo1.mp4', 'intro.mov', 'intro.mov'];
+let playList = [ 'myVideo1.mp4', 'video2.mp4', 'video3.mp4', 'video4.mp4'];
+let posterList = ['poster1.png','poster2.jpg','poster3.jpg','poster4.jpg',]
 let playListLength = playList.length;
 let previousLiElement = null; // Для хранения предыдущего элемента <li>
 
@@ -40,10 +41,14 @@ for (let i = 0; i < playListLength; i++) {
     let videoElement = document.createElement('video');
     videoElement.setAttribute("id", 'video' + i);
     videoElement.setAttribute("controls", "");
+    videoElement.setAttribute("poster", "")
     videoElement.setAttribute("muted", "muted"); 
     videoElement.setAttribute("loop", "");
     videoElement.muted = true;
 
+    let posterPath = './video/poster/';
+
+    videoElement.poster = posterPath + posterList[i];
     let sourceElement = document.createElement("source");
     let sourcePath = "./video/works/" + playList[i];
     sourceElement.src = sourcePath;

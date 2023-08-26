@@ -110,6 +110,7 @@ line-height: normal;
         margin-top: 95px;
         text-align: center;
         font-size: 18px;
+        max-width: 360px;
 
     }
     .works__contant_text .green{
