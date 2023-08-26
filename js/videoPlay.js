@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 let listWorks = document.getElementById('list__works');
 let mainVideo = document.getElementById('videoPlayer');
 
-let playList = [ 'myVideo1.mp4', 'video2.mp4', 'video3.mp4', 'video4.mp4'];
+let playList = [ 'myVideo1.mp4', 'myVideo1.mp4', 'myVideo1.mp4', 'myVideo1.mp4'];
 let posterList = ['poster1.png','poster2.jpg','poster3.jpg','poster4.jpg',]
 let playListLength = playList.length;
 let previousLiElement = null; // Для хранения предыдущего элемента <li>
