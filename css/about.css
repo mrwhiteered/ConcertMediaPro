@@ -120,9 +120,14 @@ padding-bottom: 50px;
     padding: 20px 50px;
     width: 33%;
 } 
+.info__about2{
+    margin-top: 715px;
+    padding: 0;
+}
 .text__info{
     text-align: center;
     max-width: 600px;
+    padding-bottom: 20px;
 }
     .info__about{
         padding-bottom: 0;
@@ -167,6 +172,7 @@ padding-bottom: 50px;
 }
 .info__about2{
     padding-top: 20px;
+    margin-top: 200px;
 }
 .title__info2{
     font-size: 24px;

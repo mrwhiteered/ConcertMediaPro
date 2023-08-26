@@ -388,6 +388,15 @@ text-decoration: none ;
     opacity: 0.5;
     z-index: -1;
 }
+.cmp__img2{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0.5;
+    z-index: -1;
+    display: none;
+}
 /* Адаптив планшет */
 @media screen and (max-width:868px) {
     .nav{
@@ -403,6 +412,15 @@ text-decoration: none ;
         position: fixed;
         width: 100%;
      
+    }
+    .cmp__img{
+        top: 0px;
+        height: auto;
+    }
+    .cmp__img2{
+        height: auto;
+        top: 560px;
+        display: block;
     }
     .burger_menu{
         display: block;
@@ -544,6 +562,11 @@ text-decoration: none ;
             width: 40px;
             height: 40px;
             margin-top: 2px;
+        }
+        .cmp__img2{
+            height: auto;
+            top: 283px;
+            display: block;
         }
         .item__service{
             height: 350px;
