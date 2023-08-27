@@ -89,12 +89,13 @@ body.slow-in {
     top: 0;
     background: black;
     z-index: 999;
+
 }
 .container__header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 10px 20px;
    
 }
 .logo__img{
@@ -137,7 +138,12 @@ body.slow-in {
     background: #FFF;
 }
 /* плавный контент */
-
+.services{
+    padding-top:50px ;
+    padding-bottom: 50px;
+    background: white;
+    z-index: 2;
+}
 .fade-in {
     opacity: 0;
     transform: translateX(200px);
@@ -324,7 +330,7 @@ line-height: normal;
   .footer__wrapper{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
   }
   .footer__title{
     color: #93C120;
@@ -350,7 +356,9 @@ text-decoration: none ;
   }
   .list__soc{
     display: flex;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
   }
   .item__soc{
     margin-right: 30px;
@@ -397,11 +405,17 @@ text-decoration: none ;
     z-index: -1;
     display: none;
 }
+.container__map{
+    width: 400px;
+    height: 250px;
+}
 /* Адаптив планшет */
 @media screen and (max-width:868px) {
     .nav{
         display: none;
     }
+   
+    
     .burger{
         display: block;
     }
@@ -412,6 +426,9 @@ text-decoration: none ;
         position: fixed;
         width: 100%;
      
+    }
+    .footer__title{
+        font-size: 25px;
     }
     .cmp__img{
         top: 0px;
@@ -525,6 +542,7 @@ text-decoration: none ;
    }
    .form__yandex{
     max-width:630px ;
+    padding: 20px 0;
    }
    .video__wrap{
     margin-top: 120px;
@@ -555,6 +573,7 @@ text-decoration: none ;
         .green{
             font-size: 18px;
         }
+        
         .text__link_about{
             font-size: 22px;
         }
@@ -572,6 +591,12 @@ text-decoration: none ;
             height: 350px;
             width: 100%;
         }
+        .footer__left{
+            padding-top: 50px;
+        }
+        .footer__title{
+            display: none;
+        }
         .text__ser{
             margin-top: 10px;
         }
@@ -583,6 +608,7 @@ text-decoration: none ;
             margin: 0;
             padding:15px;
         }
+        
         .map{
             padding:0 0 15px 0px;
         }
@@ -592,7 +618,7 @@ text-decoration: none ;
         .footer__wrapper{
             flex-direction: column-reverse;
             justify-content: center;
-            align-items: center;
+            align-items: flex-end;
         }
         .footer__title{
             text-align: center;
