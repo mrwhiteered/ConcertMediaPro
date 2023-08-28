@@ -65,7 +65,58 @@ padding-bottom: 50px;
 /* ------------------------------------------------------------- */
 
 
-
+/* team ----------------- */
+.team__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.team__img{
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.team__item{
+    position: relative;
+}
+.team__name{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Open Sans;
+}
+.team__link{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.team__title{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Open Sans;
+}
+.team__prof{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: Open Sans;
+}
+.team__all{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    border-radius: 40px;
+}
 /* gallery */
 .gallery__clients{
     display: flex;
@@ -143,6 +194,43 @@ padding-bottom: 50px;
     .title__gal{
         padding: 20px 0;
     }
+    .team__list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+    .team__name{
+        text-align: center;
+        padding-top: 15px;
+        font-size: 20px;
+        font-family: Open Sans;
+    }
+    .team__link{
+        text-decoration: none;
+        color: aliceblue;
+        
+    }
+    .team__title{
+        color: white;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 700;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-family: Open Sans;
+    }
+    .team__prof{
+        text-align: center;
+        padding-top: 10px;
+        
+        font-size: 18px;
+        font-family: Open Sans;
+        padding-bottom: 25px;
+    }
 }
 @media screen and (max-width:460px) {
     .item__clients{
@@ -194,5 +282,41 @@ padding-bottom: 50px;
 }
 .title__map{
     font-size: 24px;
+}
+.team__list{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.team__name{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: Open Sans;
+}
+.team__link{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.team__title{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: Open Sans;
+}
+.team__prof{
+    text-align: center;
+    padding-top: 10px;
+    
+    font-size: 16px;
+    font-family: Open Sans;
 }
 }

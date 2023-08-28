@@ -1,0 +1,49 @@
+.pic{
+    padding-top: 50px;
+}
+.pic__con{
+    position: relative;
+    margin-bottom: 50px;
+}
+.pic__img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.pic__info_title{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    color: white;
+    font-size: 24px;
+    font-family: Open Sans;
+    margin: 50px;
+   font-weight: 700;
+   backdrop-filter: blur(12px);
+   padding: 20px;
+   text-align: center;
+   border-radius: 20px;
+}
+@media screen and (max-width:460px) {
+    .pic__info_title{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        color: white;
+        font-size: 14px;
+        font-family: Open Sans;
+        margin: 10px;
+       font-weight: 700;
+       backdrop-filter: blur(12px);
+       padding: 10px;
+       text-align: center;
+       border-radius: 20px;
+    }
+    .pic{
+        padding-top: 20px;
+    }
+    .pic__con{
+        position: relative;
+        margin-bottom: 20px;
+    }
+}
