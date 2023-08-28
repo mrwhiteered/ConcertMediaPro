@@ -32,8 +32,10 @@ padding-bottom: 70px;
    padding-top: 100px;
    background: black;
     height: auto;
-    left: 100px;
+    left:0;
+    right: 0;
     z-index: 1;
+    margin: 0 auto;
 }
 
 .tool__title{
@@ -55,7 +57,10 @@ padding-bottom: 70px;
     background: white;
     z-index: 2;
 }
-
+.background__image{
+    background: black;
+    width: 100%;
+}
 
 /* ------------ */
 .container__tools_gallery{
@@ -134,7 +139,8 @@ padding-bottom: 70px;
         height: 100px;  
         padding-top: 70px;
         margin-top: 0;
-        left: 50px;
+        left:0;
+        right: 0;
        }
        .container{
         max-width: 375px;

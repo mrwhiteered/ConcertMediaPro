@@ -409,6 +409,10 @@ text-decoration: none ;
     width: 400px;
     height: 250px;
 }
+.form__yandex{
+    
+    padding: 20px 0;
+   }
 /* Адаптив планшет */
 @media screen and (max-width:868px) {
     .nav{
@@ -446,7 +450,7 @@ text-decoration: none ;
         transform:translateX(100%) ;
         overflow-x: hidden;
         background-color:#93C120;
-        width: 200px;
+        width: 250px;
         top:90px;
         transition: transform 1s, opacity 1.5s;
         opacity: 0;
@@ -469,9 +473,9 @@ text-decoration: none ;
     color: black;
     transition: color 0.3s;
     font-family: Open Sans;
-    padding: 0 10px;
+    padding: 0 15px;
     text-align: left;
-    font-size: 18px;
+    font-size: 22px;
     }
     .burger_menu_on{
         display: block;
@@ -481,7 +485,7 @@ text-decoration: none ;
         opacity: 1;
         overflow: hidden;
         background-color:#93C120;
-        width: 200px;
+        width: 250px;
         transition: transform 1s, opacity 1.5s;
     }
     
