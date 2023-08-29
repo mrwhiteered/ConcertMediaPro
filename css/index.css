@@ -24,6 +24,9 @@
    text-align: center;
    border-radius: 20px;
 }
+.img__service {
+    transition: opacity 0.6s ease-in-out;
+}
 @media screen and (max-width:460px) {
     .pic__info_title{
         position: absolute;
