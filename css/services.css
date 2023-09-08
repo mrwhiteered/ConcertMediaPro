@@ -30,6 +30,28 @@ transform: scale(1.2);
 transition: transform 0.4s;
 }
 
+
+/* new s2  */
+.s2__item{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+
+}
+.s2__img{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+.s2__include_list{
+    color: aliceblue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+
 @media screen and (max-width:864px) {
     .services__content_text{
         max-width: 600px;
