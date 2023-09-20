@@ -35,8 +35,10 @@ transition: transform 0.4s;
 .s2__item{
     position: relative;
     width: 90%;
+    max-width: 800px;
     margin: 0 auto;
     overflow-x: hidden;
+    margin-bottom: 30px;
 
 }
 .s2__img{
@@ -60,10 +62,12 @@ transition: transform 0.4s;
     font-size: 26px;
     backdrop-filter: blur(10px);
     padding: 5px;
+    font-family: Open Sans;
 }
 .s2__include_item{
     margin-bottom: 15px;
     padding: 5px;
+    font-family: Open Sans;
     border-radius: 5px;
     backdrop-filter: blur(10px);
    transform: translateX(-110%);
@@ -101,9 +105,9 @@ transition: transform 0.4s;
         top: 0;
     }
     .s2__include_item{
-        font-size: 16px;
-        padding: 3px;
-        margin-bottom: 5px;
+        font-size: 14px;
+        padding: 2px;
+        margin-bottom: 3px;
     }
     .s2__include_list{
         left: 0;
